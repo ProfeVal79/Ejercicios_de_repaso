@@ -1,5 +1,5 @@
 class Playlist:
-    def __init__(self, nombre, canciones):
+    def __init__(self, nombre):
         self.nombre = nombre
         self.canciones = []
 
@@ -17,7 +17,7 @@ class Playlist:
             print(cancion)
 
 # Ejemplo de uso
-playlist = Playlist("Mi Playlist Favorita", [])
+playlist = Playlist("Mi Playlist Favorita")
 playlist.agregar_cancion("Bohemian Rhapsody")
 playlist.agregar_cancion("Starme up")
 playlist.ver_canciones()
